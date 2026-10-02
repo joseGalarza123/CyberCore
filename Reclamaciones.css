@@ -1,0 +1,135 @@
+/* Configuración general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b132b; 
+    color: #ffffff;            
+    display: flex;
+    flex-direction: column;    
+    min-height: 100vh;
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111a36; 
+    padding: 10px 5%;          
+    box-sizing: border-box;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.marca img {
+    height: 30px;              
+    width: auto;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+nav a.activo, nav a:hover {
+    color: #00d4ff;           
+    font-weight: bold;
+}
+
+
+.contenedor {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;         
+    background-color: #111a36; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 212, 255, 0.2); 
+    box-sizing: border-box;
+}
+
+
+.contenedor h2 {
+    text-align: center;
+    color: #00d4ff;           
+    margin-bottom: 10px;
+}
+
+
+.contenedor p {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: #cbd5e1;           
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #00d4ff;            
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #1c2d5a; 
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #070c1e; 
+    color: #ffffff;            
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #00d4ff;   
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+
+button {
+    margin-top: 25px;
+    padding: 13px;
+    background: linear-gradient(135deg, #0052d4, #00d4ff); 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+button:hover {
+    background: linear-gradient(135deg, #0041a8, #00b4d8);
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
+}
